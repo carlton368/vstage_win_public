@@ -7386,6 +7386,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: VFXController
       objectReference: {fileID: 0}
+    - target: {fileID: 5285853902153028928, guid: 9bdf71d4d83cd4d0590e11f7ff0a1439, type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -7411,9 +7415,9 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 947075421}
-  - component: {fileID: 947075420}
+  - component: {fileID: 947075423}
   - component: {fileID: 947075419}
-  - component: {fileID: 947075418}
+  - component: {fileID: 947075422}
   m_Layer: 0
   m_Name: Performance Manager
   m_TagString: Untagged
@@ -7421,21 +7425,6 @@ GameObject:
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
---- !u!114 &947075418
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 947075417}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 1ac8318d7d31b14449867d90cc4d9c31, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  startDelaySeconds: 5
-  perf: {fileID: 947075420}
-  timeline: {fileID: 2028521589}
 --- !u!114 &947075419
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -7453,27 +7442,9 @@ MonoBehaviour:
   Flags: 131073
   NestedObjects: []
   NetworkedBehaviours:
-  - {fileID: 947075420}
-  - {fileID: 947075418}
+  - {fileID: 947075423}
+  - {fileID: 947075422}
   ForceRemoteRenderTimeframe: 0
---- !u!114 &947075420
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 947075417}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 0c502b61e9ed4b7459b91bb6fdd2ded6, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  aiSendTriggerTime: 33
-  aiDisplayTime: 39
-  _ShowStartNetworkTick: 0
-  _webSocketVoiceClient: {fileID: 204670018}
-  tmpPro: {fileID: 1476303919}
-  timeline: {fileID: 2028521589}
 --- !u!4 &947075421
 Transform:
   m_ObjectHideFlags: 0
@@ -7489,6 +7460,39 @@ Transform:
   m_Children: []
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &947075422
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 947075417}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 69e3296b127bd4716beea8ffc4f5f907, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  startDelaySeconds: 5
+  perf: {fileID: 947075423}
+  timeline: {fileID: 2028521589}
+--- !u!114 &947075423
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 947075417}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b59f8781bcc9749938fdfcfc95d213a0, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  aiSendTriggerTime: 33
+  aiDisplayTime: 34
+  _ShowStartNetworkTick: 0
+  _webSocketVoiceClient: {fileID: 204670018}
+  tmpPro: {fileID: 1476303919}
+  timeline: {fileID: 2028521589}
 --- !u!1 &947780693
 GameObject:
   m_ObjectHideFlags: 0
@@ -12175,6 +12179,7 @@ MonoBehaviour:
   - {fileID: 1305116974}
   - {fileID: 2093468603}
   colorMapper: {fileID: 2061636597}
+  revealDelay: 0.5
   keywordSamples:
   - "\uB8E8\uB098 \uB108\uBB34 \uBA4B\uC838!!"
   emotionSamples:
@@ -13343,7 +13348,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 2452744935177118899, guid: 28497d2d2970f4867b4927fb273f9e2c, type: 3}
       propertyPath: m_IsActive
-      value: 1
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 3301011831797107824, guid: 28497d2d2970f4867b4927fb273f9e2c, type: 3}
       propertyPath: 'm_Materials.Array.data[0]'
@@ -15028,7 +15033,7 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: 4549204472322052305, guid: 5d787fedda2574833b7876521191e60c, type: 3}
       propertyPath: m_Enabled
-      value: 1
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 7738241991339197491, guid: 5d787fedda2574833b7876521191e60c, type: 3}
       propertyPath: m_Name
@@ -15036,7 +15041,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 7738241991339197491, guid: 5d787fedda2574833b7876521191e60c, type: 3}
       propertyPath: m_IsActive
-      value: 1
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 8921085626734415775, guid: 5d787fedda2574833b7876521191e60c, type: 3}
       propertyPath: m_LocalPosition.x
@@ -19399,6 +19404,10 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 747187984407469807, guid: a4b648914ce7e4f4a93d7930dcea582d, type: 3}
+      propertyPath: m_Controller
+      value: 
+      objectReference: {fileID: 9100000, guid: a50a0a873c39ae14fb0651239035bfc1, type: 2}
     - target: {fileID: 5631458427706698540, guid: a4b648914ce7e4f4a93d7930dcea582d, type: 3}
       propertyPath: m_Name
       value: Artist_Placeholder
