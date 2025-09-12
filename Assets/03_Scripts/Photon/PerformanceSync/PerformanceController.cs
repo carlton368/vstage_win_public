@@ -3,9 +3,12 @@ using System.Linq;
 using Fusion;
 using UnityEngine;
 using UnityEngine.Playables;
+using System;
 
 public class PerformanceController : NetworkBehaviour
 {
+    public static event Action OnShowStarted;
+    
     [Header("AI 음성 송신 트리거 타임(초)")] 
     public float aiSendTriggerTime = 33f;
     
@@ -144,6 +147,7 @@ public class PerformanceController : NetworkBehaviour
         ShowStartNetworkTick = networkTick;
         isShowStartedLocally = true;
         aiSendRequestDone = false;
+        OnShowStarted?.Invoke();
     }
     
     // Host가 AI 데이터를 모든 클라이언트에게 하나씩 전송하는 RPC
