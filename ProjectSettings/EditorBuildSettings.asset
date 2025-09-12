@@ -5,9 +5,12 @@ EditorBuildSettings:
   m_ObjectHideFlags: 0
   serializedVersion: 2
   m_Scenes:
-  - enabled: 1
+  - enabled: 0
     path: Assets/01_Scenes/EnergyballToFlowerShine.unity
     guid: 95a304da06dc97241b52d8a5184767af
+  - enabled: 1
+    path: Assets/01_Scenes/PHOTON_host_stage_with_camera0912.unity
+    guid: 447e78a463ece40d68e1c14b1100a722
   m_configObjects:
     com.unity.input.settings.actions: {fileID: -944628639613478452, guid: ed28daaab28ede3469aefef9450fc9c2, type: 3}
     com.unity.xr.management.loader_settings: {fileID: 11400000, guid: 2674b28c245694f139852a5e05be2758, type: 2}

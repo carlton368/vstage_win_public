@@ -17504,10 +17504,6 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 0}
     m_Modifications:
-    - target: {fileID: 747187984407469807, guid: a4b648914ce7e4f4a93d7930dcea582d, type: 3}
-      propertyPath: m_Controller
-      value: 
-      objectReference: {fileID: 9100000, guid: a50a0a873c39ae14fb0651239035bfc1, type: 2}
     - target: {fileID: 5631458427706698540, guid: a4b648914ce7e4f4a93d7930dcea582d, type: 3}
       propertyPath: m_Name
       value: Artist_Placeholder
@@ -19555,15 +19551,15 @@ SceneRoots:
   - {fileID: 1383125061}
   - {fileID: 2056786900}
   - {fileID: 202990003}
+  - {fileID: 343140608}
+  - {fileID: 1162485538}
+  - {fileID: 1508267659}
   - {fileID: 861570611}
   - {fileID: 1932476429}
-  - {fileID: 1162485538}
-  - {fileID: 343140608}
   - {fileID: 2075612306}
   - {fileID: 62741217}
   - {fileID: 1823971192}
   - {fileID: 1068352570}
   - {fileID: 640483827}
-  - {fileID: 1508267659}
   - {fileID: 8916419351695303846}
   - {fileID: 542610818}
