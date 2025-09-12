@@ -382,6 +382,17 @@ MonoBehaviour:
   m_LightCookieSize: {x: 1, y: 1}
   m_LightCookieOffset: {x: 0, y: 0}
   m_SoftShadowQuality: 0
+--- !u!114 &1406200844 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 2157494117423324001, guid: 628bd839385d07b46a40b435189e7e4d, type: 3}
+  m_PrefabInstance: {fileID: 5954920247140501301}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: caa8082fbf5525c4794e85341456ce03, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!114 &1536718863 stripped
 MonoBehaviour:
   m_CorrespondingSourceObject: {fileID: 5322108169163121703, guid: eb6e2d17a38e64548b6213bd1fd84bb5, type: 3}
@@ -490,7 +501,7 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: 902883630222412369, guid: eb6e2d17a38e64548b6213bd1fd84bb5, type: 3}
       propertyPath: m_AnchoredPosition.y
-      value: -199.99982
+      value: -200
       objectReference: {fileID: 0}
     - target: {fileID: 1135014214861467323, guid: eb6e2d17a38e64548b6213bd1fd84bb5, type: 3}
       propertyPath: m_Pivot.x
@@ -613,6 +624,10 @@ PrefabInstance:
       propertyPath: scroll
       value: 
       objectReference: {fileID: 1536718863}
+    - target: {fileID: 1961222686789637397, guid: 628bd839385d07b46a40b435189e7e4d, type: 3}
+      propertyPath: apiClient
+      value: 
+      objectReference: {fileID: 1406200844}
     - target: {fileID: 1961222686789637397, guid: 628bd839385d07b46a40b435189e7e4d, type: 3}
       propertyPath: contentParent
       value: 
