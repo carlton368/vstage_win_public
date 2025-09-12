@@ -8,9 +8,9 @@
       "hash": "88053c1a52ec57cf2ea0afa30d6e915a1f078686"
     },
     "com.htc.upm.vive.openxr": {
-      "version": "file:C:/Users/hanta/Desktop/package",
+      "version": "file:C:/Users/carlt/Downloads/com.htc.upm.vive.openxr-2.5.1.tgz",
       "depth": 0,
-      "source": "local",
+      "source": "local-tarball",
       "dependencies": {
         "com.unity.xr.management": "4.2.1",
         "com.unity.inputsystem": "1.7.0",
