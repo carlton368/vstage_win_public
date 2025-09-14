@@ -247,8 +247,8 @@ MonoBehaviour:
       m_Calls: []
   m_text: "\uD55C\uAE00\uD14C\uC2A4\uD2B8\uD55C\uAE00\uD14C\uC2A4\uD2B8\uD55C\uAE00\uD14C\uC2A4\uD2B8\uD55C\uAE00\uD14C\uC2A4\uD2B8\uD55C\uAE00\uD14C\uD55C\uAE00\uD14C\uC2A4\uD2B8\uD55C\uAE00\uD14C\uC2A4\uD2B8\uD55C\uAE00\uD14C\uC2A4\uD2B8\uC2A4\uD2B8\uD55C\uAE00\uD14C\uC2A4\uD2B8"
   m_isRightToLeft: 0
-  m_fontAsset: {fileID: 11400000, guid: 4bcaec4c198ad491eb1fb854f9f3756c, type: 2}
-  m_sharedMaterial: {fileID: -2197594226954793286, guid: 4bcaec4c198ad491eb1fb854f9f3756c, type: 2}
+  m_fontAsset: {fileID: 11400000, guid: 34d2c0816a2dbec46ba290a8a7e40f60, type: 2}
+  m_sharedMaterial: {fileID: -2796153862123504744, guid: 34d2c0816a2dbec46ba290a8a7e40f60, type: 2}
   m_fontSharedMaterials: []
   m_fontMaterial: {fileID: 0}
   m_fontMaterials: []
