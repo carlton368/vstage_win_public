@@ -11,7 +11,7 @@ GameObject:
   - component: {fileID: 5510756690379850494}
   - component: {fileID: 6149518275939661127}
   - component: {fileID: 4963134312144574220}
-  m_Layer: 7
+  m_Layer: 0
   m_Name: Building_13
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -98,7 +98,7 @@ GameObject:
   - component: {fileID: 4101966542120778487}
   - component: {fileID: 4041734690420674896}
   - component: {fileID: 2467542097106361348}
-  m_Layer: 7
+  m_Layer: 0
   m_Name: front_3
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -185,7 +185,7 @@ GameObject:
   - component: {fileID: 4238933811722445941}
   - component: {fileID: 1745928940803515057}
   - component: {fileID: 2945496664352092345}
-  m_Layer: 7
+  m_Layer: 0
   m_Name: front_4
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -272,7 +272,7 @@ GameObject:
   - component: {fileID: 528864082926536575}
   - component: {fileID: 3162240782171132284}
   - component: {fileID: 274277973866608164}
-  m_Layer: 7
+  m_Layer: 0
   m_Name: Building_12
   m_TagString: Untagged
   m_Icon: {fileID: 0}

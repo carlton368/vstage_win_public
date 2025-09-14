@@ -11,7 +11,7 @@ GameObject:
   - component: {fileID: 3006152410323887398}
   - component: {fileID: 5693119238312766448}
   - component: {fileID: 3553070510875294423}
-  m_Layer: 7
+  m_Layer: 0
   m_Name: dist building_2 1 (5)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -97,7 +97,7 @@ GameObject:
   - component: {fileID: 6265166396487936559}
   - component: {fileID: 1366759684704615623}
   - component: {fileID: 6390475450621788024}
-  m_Layer: 7
+  m_Layer: 0
   m_Name: dist building_2 1 (6)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -183,7 +183,7 @@ GameObject:
   - component: {fileID: 5721549953181206146}
   - component: {fileID: 4103339571793706861}
   - component: {fileID: 6249731804637527413}
-  m_Layer: 7
+  m_Layer: 0
   m_Name: Building_11
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -269,7 +269,7 @@ GameObject:
   - component: {fileID: 6781235333137018015}
   - component: {fileID: 1925860919642701657}
   - component: {fileID: 201370679010307074}
-  m_Layer: 7
+  m_Layer: 0
   m_Name: dist building_2 1 (7)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
